@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	margin: 0px;
+}
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#footer h1 {
+	text-align: center;
+	margin-right: 15px;
+}
+#footer h1 i {
+	font-size: 36px;
+	margin: 20px;
+	color: grey;
+	font-weight: 500;
+}
+#footer h1 i:hover {
+	color: black;
+}
